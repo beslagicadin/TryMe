@@ -14,6 +14,10 @@ A simple Android app that changes the background to a random color every time th
 - Android SDK
 - XML layouts
 
+## How It Works
+
+Each tap generates a random RGB value using `Random` and applies it as the background color of the root layout via `setBackgroundColor()`.
+
 ## Getting Started
 
 1. Clone the repository
